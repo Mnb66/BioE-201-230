@@ -61,9 +61,9 @@ awk -F'\t' 'NR==1{next} {if(max=="" || \$5 < max){max=$5}} END{print max}' summa
 
 ### Find the number of genomes that contain at least two “c” in the species name
 
-awk -F'\t' '$1 ~ /c.*c/ {count++} END{print count+0}' summary.tsv
+awk -F'\t' 'BEGIN{count=0} {if(gsub(/[Cc]/,"c",$1) >= 2) count++} END{print count}' summary.tsv
 
-**Output:** 5
+**Output:** 7
 
 ### How many of the species names contain two or more “c” but do not contain the word “coccus”
 
