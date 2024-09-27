@@ -1,1 +1,1 @@
-# Code for Week 3 and 4 and 5: using git and genome annotation
+# Code for Week 3 and 4: using git
