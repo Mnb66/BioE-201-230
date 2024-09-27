@@ -1,0 +1,29 @@
+Organism Scientific Name	Organism Common Name	Organism Qualifier	Taxonomy id	Assembly Name	Assembly Accession	Source	Annotation	Level	Contig N50	Size	Submission Date	Gene Count	BioProject	BioSample
+Vibrio cholerae O1 biovar El Tor str. N16961		strain: N16961	243277	ASM674v1	GCA_000006745.1	GenBank	Annotation submitted by TIGR	Complete Genome	2961149	4033464	2001-01-09	4007	PRJNA36	SAMN02603969
+Pasteurella multocida subsp. multocida str. Pm70		strain: Pm70	272843	ASM682v1	GCA_000006825.1	GenBank	Annotation submitted by Univ. Minnesota	Complete Genome	2257487	2257487	2001-03-21	2014	PRJNA39	SAMN02604085
+Lactococcus lactis subsp. lactis Il1403		strain: IL1403	272623	ASM686v1	GCA_000006865.1	GenBank	Annotation submitted by INRA	Complete Genome	2365589	2365589	2001-03-21	2309	PRJNA72	SAMN02603339
+Brucella melitensis bv. 1 str. 16M		strain: 16M	224914	ASM712v1	GCA_000007125.1	GenBank	Annotation submitted by Integrated Genomics	Complete Genome	2117144	3294931	2001-12-28	3264	PRJNA180	SAMN02603416
+Helicobacter pylori 26695		strain: 26695	85962	ASM852v1	GCA_000008525.1	GenBank	Annotation submitted by TIGR	Complete Genome	1667867	1667867	1999-12-22	1632	PRJNA233	SAMN02603995
+Thermotoga maritima MSB8		strain: MSB8	243274	ASM854v1	GCA_000008545.1	GenBank	Annotation submitted by TIGR	Complete Genome	1860725	1860725	2001-01-09	1926	PRJNA111	SAMN02603986
+Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539		strain: R1	243230	ASM856v1	GCA_000008565.1	GenBank	Annotation submitted by TIGR	Complete Genome	2648638	3284156	2000-12-11	3235	PRJNA65	SAMN02603976
+Treponema pallidum subsp. pallidum str. Nichols		strain: Nichols	243276	ASM860v1	GCA_000008605.1	GenBank	Annotation submitted by US DOE Joint Genome Institute (JGI-PGF)	Complete Genome	1138011	1138011	1999-12-22	1091	PRJNA5	SAMN02604348
+Aquifex aeolicus VF5		strain: VF5	224324	ASM862v1	GCA_000008625.1	GenBank	Annotation submitted by DIVERSA	Complete Genome	1551335	1590791	1999-12-22	1604	PRJNA215	SAMN02603207
+Chlamydia trachomatis D/UW-3/CX		strain: D/UW-3/CX	272561	ASM872v1	GCA_000008725.1	GenBank	Annotation submitted by ChGP	Complete Genome	1042519	1042519	2001-01-09	939	PRJNA45	SAMN02603114
+Chlamydia pneumoniae CWL029		strain: CWL029	115713	ASM874v1	GCA_000008745.1	GenBank	Annotation submitted by ChGP	Complete Genome	1230230	1230230	1999-12-22	1120	PRJNA248	SAMN02603115
+Helicobacter pylori J99		strain: J99	85963	ASM878v1	GCA_000008785.1	GenBank	Annotation submitted by ASTRA	Complete Genome	1643831	1643831	2001-01-09	1495	PRJNA234	SAMN02602990
+Haemophilus influenzae Rd KW20		strain: Rd KW20	71421	ASM2730v1	GCA_000027305.1	GenBank	Annotation submitted by TIGR	Complete Genome	1830138	1830138	1999-12-22	1775	PRJNA219	SAMN02603991
+Chlamydia pneumoniae AR39		strain: AR39	115711	ASM9108v2	GCA_000091085.2	GenBank	Annotation submitted by TIGR	Complete Genome	1229853	1229853	2001-01-09	1171	PRJNA247	SAMN02641564
+Vibrio cholerae O1 biovar El Tor str. N16961		strain: N16961	243277	ASM674v1	GCF_000006745.1	RefSeq	GCF_000006745.1-RS_2024_08_23	Complete Genome	2961149	4033464	2001-01-09	3711	PRJNA36	SAMN02603969
+Pasteurella multocida subsp. multocida str. Pm70		strain: Pm70	272843	ASM682v1	GCF_000006825.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2257487	2257487	2001-03-21	2107	PRJNA39	SAMN02604085
+Lactococcus lactis subsp. lactis Il1403		strain: IL1403	272623	ASM686v1	GCF_000006865.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2365589	2365589	2001-03-21	2411	PRJNA72	SAMN02603339
+Brucella melitensis bv. 1 str. 16M		strain: 16M	224914	ASM712v1	GCF_000007125.1	RefSeq	GCF_000007125.1-RS_2024_03_28	Complete Genome	2117144	3294931	2001-12-28	3237	PRJNA180	SAMN02603416
+Helicobacter pylori 26695		strain: 26695	85962	ASM852v1	GCF_000008525.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	1667867	1667867	1999-12-22	1603	PRJNA233	SAMN02603995
+Thermotoga maritima MSB8		strain: MSB8	243274	ASM854v1	GCF_000008545.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	1860725	1860725	2001-01-09	1919	PRJNA111	SAMN02603986
+Deinococcus radiodurans R1 = ATCC 13939 = DSM 20539		strain: R1	243230	ASM856v1	GCF_000008565.1	RefSeq	GCF_000008565.1-RS_2024_03_30	Complete Genome	2648638	3284156	2000-12-11	3301	PRJNA65	SAMN02603976
+Treponema pallidum subsp. pallidum str. Nichols		strain: Nichols	243276	ASM860v1	GCF_000008605.1	RefSeq	GCF_000008605.1-RS_2024_07_04	Complete Genome	1138011	1138011	1999-12-22	1062	PRJNA5	SAMN02604348
+Aquifex aeolicus VF5		strain: VF5	224324	ASM862v1	GCF_000008625.1	RefSeq	GCF_000008625.1-RS_2024_05_05	Complete Genome	1551335	1590791	1999-12-22	1820	PRJNA215	SAMN02603207
+Chlamydia trachomatis D/UW-3/CX		strain: D/UW-3/CX	272561	ASM872v1	GCF_000008725.1	RefSeq	Annotation submitted by NCBI RefSeq	Complete Genome	1042519	1042519	2001-01-09	935	PRJNA45	SAMN02603114
+Chlamydia pneumoniae CWL029		strain: CWL029	115713	ASM874v1	GCF_000008745.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	1230230	1230230	1999-12-22	1095	PRJNA248	SAMN02603115
+Helicobacter pylori J99		strain: J99	85963	ASM878v1	GCF_000008785.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	1643831	1643831	2001-01-09	1570	PRJNA234	SAMN02602990
+Haemophilus influenzae Rd KW20		strain: Rd KW20	71421	ASM2730v1	GCF_000027305.1	RefSeq	NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	1830138	1830138	1999-12-22	1801	PRJNA219	SAMN02603991
+Chlamydia pneumoniae AR39		strain: AR39	115711	ASM9108v2	GCF_000091085.2	RefSeq	GCF_000091085.2-RS_2024_07_07	Complete Genome	1229853	1229853	2001-01-09	1093	PRJNA247	SAMN02641564
