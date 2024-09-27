@@ -46,6 +46,11 @@ def find_orfs_in_six_frames(sequence, min_length=100):
         orfs += find_orfs_numpy(reverse_complement, frame, min_length)
     return orfs
 
+# Function to check if a sequence has a Shine-Dalgarno sequence
+def has_shine_dalgarno(upstream_seq):
+    sd_sequence = "AGGAGG"
+    return sd_sequence in upstream_seq
+
 # Function to find ORFs in a single sequence using NumPy
 def find_orfs_numpy(sequence, frame=0, min_length=100):
     """
@@ -84,9 +89,13 @@ def find_orfs_numpy(sequence, frame=0, min_length=100):
             if stop_idx >= start_idx:
                 orf_length = stop_idx - start_idx + 1
                 if orf_length >= min_length: # ORF min_length
-                    orf_codons = codon_strings[start_idx:stop_idx+1]
-                    orf_seq = ''.join(orf_codons)
-                    orfs.append(orf_seq)
+                    # Check if the ORF has a Shine-Dalgarno sequence
+                    upstream_start = max(0, start_idx * 3 - 20)
+                    upstream_seq = sequence[upstream_start:start_idx * 3]
+                    if has_shine_dalgarno(upstream_seq):
+                        orf_codons = codon_strings[start_idx:stop_idx+1]
+                        orf_seq = ''.join(orf_codons)
+                        orfs.append(orf_seq)
     return orfs
 
 # Function to translate ORFs to protein sequences
