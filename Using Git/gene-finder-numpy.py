@@ -25,7 +25,7 @@ def read_fasta(file_path):
     return sequence
 
 # Function to find Open Reading Frames (ORFs) in all six reading frames using NumPy
-def find_orfs_in_six_frames(sequence):
+def find_orfs_in_six_frames(sequence, min_length=100):
     """
     Finds ORFs in all six reading frames of a DNA sequence.
     
@@ -39,15 +39,15 @@ def find_orfs_in_six_frames(sequence):
     frames = [0, 1, 2]
     # Forward frames
     for frame in frames:
-        orfs += find_orfs_numpy(sequence, frame)
+        orfs += find_orfs_numpy(sequence, frame, min_length)
     # Reverse frames
     reverse_complement = str(Seq(sequence).reverse_complement())
     for frame in frames:
-        orfs += find_orfs_numpy(reverse_complement, frame)
+        orfs += find_orfs_numpy(reverse_complement, frame, min_length)
     return orfs
 
 # Function to find ORFs in a single sequence using NumPy
-def find_orfs_numpy(sequence, frame=0):
+def find_orfs_numpy(sequence, frame=0, min_length=100):
     """
     Finds ORFs in a single frame of a DNA sequence using NumPy for efficiency.
     
@@ -82,9 +82,11 @@ def find_orfs_numpy(sequence, frame=0):
         if stop_idx_pos < len(stop_indices):
             stop_idx = stop_indices[stop_idx_pos]
             if stop_idx >= start_idx:
-                orf_codons = codon_strings[start_idx:stop_idx+1]
-                orf_seq = ''.join(orf_codons)
-                orfs.append(orf_seq)
+                orf_length = stop_idx - start_idx + 1
+                if orf_length >= min_length: # ORF min_length
+                    orf_codons = codon_strings[start_idx:stop_idx+1]
+                    orf_seq = ''.join(orf_codons)
+                    orfs.append(orf_seq)
     return orfs
 
 # Function to translate ORFs to protein sequences
