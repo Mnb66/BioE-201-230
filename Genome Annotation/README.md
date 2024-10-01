@@ -4,6 +4,7 @@
 seq = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT"
 print(len(seq))
 print(len(seq)*3 + 3)
+
 **Result:** 30 93
 
 ## Command for question 2 (Redirecting Prodigal's output to standard output)
