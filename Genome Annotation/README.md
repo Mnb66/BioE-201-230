@@ -12,7 +12,7 @@ print(len(seq)*3 + 3)
 ## Command for question 2 (Redirecting Prodigal's output to standard output)
 prodigal -i genome.fna -o /dev/stdout | grep -c "CDS"
 
-`-------------------------------------
+-------------------------------------
 PRODIGAL v2.6.3 [February, 2016]
 Univ of Tenn / Oak Ridge National Lab
 Doug Hyatt, Loren Hauser, et al.
@@ -27,13 +27,15 @@ Examining upstream regions and training starts...done!
 -------------------------------------
 Request:  Single Genome, Phase:  Gene Finding
 Finding genes in sequence #1 (1042519 bp)...done!
-897`
+897
 
 ## Result for question 3
 The biggest output is: "Genome with the highest number of genes: ./ncbi_dataset/ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna (3594 genes)"
+
 please refer to [question3.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question3.sh) for code and [q3_gene_counts.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/q3_gene_counts.txt) for output result.
 
 ## Result for question 4 
+
 please refer to [question4.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question4.sh) for code and [gene_counts_difference.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/gene_counts_difference.txt) for output result.
 
 ## Command for question 5
