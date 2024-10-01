@@ -2,7 +2,9 @@
 
 ## Command for question 1
 seq = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT"
+
 print(len(seq))
+
 print(len(seq)*3 + 3)
 
 **Result:** 30 93
