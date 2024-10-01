@@ -36,13 +36,16 @@ Finding genes in sequence #1 (1042519 bp)...done!
 ```
 
 ## Result for question 3
-The biggest output is: "Genome with the highest number of genes: ./ncbi_dataset/ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna (3594 genes)"
+The biggest output is: 
+```
+Genome with the highest number of genes: ./ncbi_dataset/ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna (3594 genes)
+```
 
-please refer to [question3.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question3.sh) for code and [q3_gene_counts.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/q3_gene_counts.txt) for output result.
+Please refer to [question3.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question3.sh) for code and [q3_gene_counts.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/q3_gene_counts.txt) for output result.
 
 ## Result for question 4 
 
-please refer to [question4.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question4.sh) for code and [gene_counts_difference.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/gene_counts_difference.txt) for output result.
+Please refer to [question4.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question4.sh) for code and [gene_counts_difference.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/gene_counts_difference.txt) for output result.
 
 ## Command for question 5
 find . -name "*.gff" -exec grep -oP 'Name=\K[^;]+' {} + | sort -u | head -n 5
