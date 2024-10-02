@@ -1,3 +1,5 @@
+# A .py file converted from the corresponding code of week3.ipynb to solve question 4.
+
 import sys
 from Bio.Seq import Seq
 from tqdm import tqdm
