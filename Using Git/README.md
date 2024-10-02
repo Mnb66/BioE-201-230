@@ -1,5 +1,8 @@
 # Code for Week 3 and 4: using git
 
-**gene_finder.py** file can be used to solve problems 1-3. For problem 4, the code will meet performance issue. **gene-finder-numpy.py** was built for problems 4-6 using numpy to speedup sequence computation.
+`week3.ipynb` is the jupyter notebook for week 3, which capable of solving all questions.
 
-Run **find . -type f -name "*.fna" -exec python gene-finder-numpy.py {} \;** in command line for probelm 4. Make sure your python environment was set up on ibex.
+`week3-question4.py` is customized for question 4 to enable it to be run on the command line.
+
+To run it on all local fna data through command line, use `week3-question4.py` file, then run `find . -type f -name "*.fna" -exec python week3-question4.py {} ;` (For Windows please use `gci -r *.fna | % { python week3-question4.py $_.FullName }` instead).
+
