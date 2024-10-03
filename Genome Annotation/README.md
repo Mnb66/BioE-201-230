@@ -1,12 +1,13 @@
 # Repo for Week 4-5 Assignment
 
 ## Command for question 1
+```
 seq = "KVRMFTSELDIMLSVNGPADQIKYFCRHWT"
 
 print(len(seq))
 
 print(len(seq)*3 + 3)
-
+```
 **Result:** 
 
 ```
@@ -14,7 +15,7 @@ print(len(seq)*3 + 3)
 ```
 
 ## Command for question 2 (Redirecting Prodigal's output to standard output)
-prodigal -i genome.fna -o /dev/stdout | grep -c "CDS"
+`prodigal -i genome.fna -o /dev/stdout | grep -c "CDS"`
 
 ```
 -------------------------------------
@@ -41,14 +42,14 @@ The biggest output is:
 Genome with the highest number of genes: ./ncbi_dataset/ncbi_dataset/data/GCA_000006745.1/GCA_000006745.1_ASM674v1_genomic.fna (3594 genes)
 ```
 
-Please refer to [question3.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question3.sh) for code and [q3_gene_counts.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/q3_gene_counts.txt) for output result.
+Please refer to [`question3.sh`](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question3.sh) for code and [q3_gene_counts.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/q3_gene_counts.txt) for output result.
 
 ## Result for question 4 
 
-Please refer to [question4.sh](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question4.sh) for code and [gene_counts_difference.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/gene_counts_difference.txt) for output result.
+Please refer to [`question4.sh`](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/question4.sh) for code and [gene_counts_difference.txt](https://github.com/Mnb66/BioE-201-230/blob/main/Genome%20Annotation/gene_counts_difference.txt) for output result.
 
 ## Command for question 5
-find . -name "*.gff" -exec grep -oP 'Name=\K[^;]+' {} + | sort -u | head -n 5
+`find . -name "*.gff" -exec grep -oP 'Name=\K[^;]+' {} + | sort -u | head -n 5`
 
 ### The output is like:
 ```
